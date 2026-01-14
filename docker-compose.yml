@@ -1,0 +1,46 @@
+version: "3.9"
+services:
+  spring-api-tienda:
+    image: spring-api-tienda-demo
+    container_name: spring-api-container
+    environment:
+      DB_URL: jdbc:mysql://mysql:3306/tienda_demo?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true&useLegacyDatetimeCode=false
+      DB_USER: roberto
+      DB_PASS: 142134
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+    ports:
+      - "6060:9090"
+    networks:
+      - spring-networks
+    depends_on:
+      - mysql
+      - redis
+  mysql:
+    image: mysql
+    container_name: mysql-db-container
+    environment:
+      MYSQL_ROOT_PASSWORD: 123
+      MYSQL_DATABASE: tienda_demo
+      MYSQL_USER: roberto
+      MYSQL_PASSWORD: 142134
+    ports:
+      - "3307:3306"
+    networks:
+      - spring-networks
+    volumes:
+      - mysql-volume:/var/lib/mysql
+  redis:
+    image: redis
+    container_name: redis-server-container
+    ports:
+      - "6379:6379"
+    networks:
+      - spring-networks
+    volumes:
+      - redis_volume:/data
+networks:
+  spring-networks:
+volumes:
+  mysql-volume:
+  redis_volume:
