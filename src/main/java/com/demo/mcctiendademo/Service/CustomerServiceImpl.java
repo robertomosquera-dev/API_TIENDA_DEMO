@@ -4,7 +4,7 @@ import com.demo.mcctiendademo.Entity.Customer;
 import com.demo.mcctiendademo.Http.Request.CustomerCreateRequest;
 import com.demo.mcctiendademo.Http.Response.CustomerCreateResponse;
 import com.demo.mcctiendademo.Mapper.CustomerMapper;
-import com.demo.mcctiendademo.Repository.ICustomerRepository;
+import com.demo.mcctiendademo.Repository.ICustomerGenericRepository;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.cache.annotation.CacheEvict;
@@ -19,7 +19,7 @@ import java.util.UUID;
 @RequiredArgsConstructor
 public class CustomerServiceImpl implements ICustomerService{
 
-    private final ICustomerRepository repository;
+    private final ICustomerGenericRepository repository;
     private final CustomerMapper mapper;
 
     @Override

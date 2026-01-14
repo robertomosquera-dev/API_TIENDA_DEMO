@@ -4,7 +4,7 @@ import com.demo.mcctiendademo.Entity.Product;
 import com.demo.mcctiendademo.Http.Request.ProductCreateRequest;
 import com.demo.mcctiendademo.Http.Response.ProductCreateResponse;
 import com.demo.mcctiendademo.Mapper.ProductMapper;
-import com.demo.mcctiendademo.Repository.IProductRepository;
+import com.demo.mcctiendademo.Repository.IProductGenericRepository;
 import com.demo.mcctiendademo.Service.Dto.DetailDiscountStockDTO;
 import com.demo.mcctiendademo.Service.Dto.DiscountStockDTO;
 import jakarta.persistence.EntityNotFoundException;
@@ -21,7 +21,7 @@ import java.util.UUID;
 @RequiredArgsConstructor
 public class ProductServiceImpl implements IProductService{
 
-    private final IProductRepository repository;
+    private final IProductGenericRepository repository;
     private final ProductMapper mapper;
 
     @Override

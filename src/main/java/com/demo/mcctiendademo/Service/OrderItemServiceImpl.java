@@ -4,7 +4,7 @@ import com.demo.mcctiendademo.Entity.OrderItem;
 import com.demo.mcctiendademo.Http.Request.OrderItemCreateRequest;
 import com.demo.mcctiendademo.Http.Response.OrderItemCreateResponse;
 import com.demo.mcctiendademo.Mapper.OrderItemMapper;
-import com.demo.mcctiendademo.Repository.IOrderItemRepository;
+import com.demo.mcctiendademo.Repository.IOrderItemGenericRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -14,7 +14,7 @@ import java.util.UUID;
 @RequiredArgsConstructor
 public class OrderItemServiceImpl implements IOrderItemService{
 
-    private final IOrderItemRepository repository;
+    private final IOrderItemGenericRepository repository;
     private final OrderItemMapper mapper;
 
     @Override

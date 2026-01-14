@@ -8,7 +8,7 @@ import com.demo.mcctiendademo.Http.Response.ItemCreateResponse;
 import com.demo.mcctiendademo.Http.Response.OrderFind;
 import com.demo.mcctiendademo.Http.Response.OrderItemCreateResponse;
 import com.demo.mcctiendademo.Mapper.CustomerOrderViewMapper;
-import com.demo.mcctiendademo.Repository.ICustomerOrderViewRepository;
+import com.demo.mcctiendademo.Repository.ICustomerOrderViewGenericRepository;
 import com.demo.mcctiendademo.Service.Dto.DetailDiscountStockDTO;
 import com.demo.mcctiendademo.Service.Dto.DiscountStockDTO;
 
@@ -30,7 +30,7 @@ public class OrderProcessServiceImp implements  IOrderProcessService{
     private final IPurchaseOrderService purchaseOrderService;
     private final IProductService  productService;
     private final IOrderItemService orderItemService;
-    private final ICustomerOrderViewRepository customerOrderViewRepository;
+    private final ICustomerOrderViewGenericRepository customerOrderViewRepository;
     private final CustomerOrderViewMapper orderViewMapper;
 
     @Override

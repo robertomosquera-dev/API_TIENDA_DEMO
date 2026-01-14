@@ -4,7 +4,7 @@ import com.demo.mcctiendademo.Entity.Category;
 import com.demo.mcctiendademo.Http.Request.CategoryCreateRequest;
 import com.demo.mcctiendademo.Http.Response.CategoryCreateResponse;
 import com.demo.mcctiendademo.Mapper.CategoryMapper;
-import com.demo.mcctiendademo.Repository.ICategoryRepository;
+import com.demo.mcctiendademo.Repository.ICategoryGenericRepository;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.cache.annotation.CacheEvict;
@@ -19,7 +19,7 @@ import java.util.UUID;
 @RequiredArgsConstructor
 public class CategoryServiceImpl implements ICategoryService{
 
-    private final ICategoryRepository repository;
+    private final ICategoryGenericRepository repository;
     private final CategoryMapper mapper;
 
     @Override

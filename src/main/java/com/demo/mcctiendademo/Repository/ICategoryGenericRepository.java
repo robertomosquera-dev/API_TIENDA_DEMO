@@ -7,6 +7,6 @@ import java.util.Optional;
 import java.util.UUID;
 
 @Repository
-public interface ICategoryRepository extends IRepository<Category, UUID> {
+public interface ICategoryGenericRepository extends IGenericRepository<Category, UUID> {
     Optional<Category> findByName(String name);
 }

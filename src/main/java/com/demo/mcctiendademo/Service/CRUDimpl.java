@@ -1,10 +1,14 @@
 package com.demo.mcctiendademo.Service;
 
 
+import com.demo.mcctiendademo.Repository.IGenericRepository;
+
 import java.util.List;
 
 public abstract class CRUDimpl<T,ID,D> implements ICRUD <T,ID,D>{
 
+
+    protected IGenericRepository<T,ID> repository;
 
     @Override
     public T save(D dto) throws Exception {

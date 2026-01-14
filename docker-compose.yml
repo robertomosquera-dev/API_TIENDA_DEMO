@@ -14,10 +14,13 @@ services:
     networks:
       - spring-networks
     depends_on:
-      - mysql
-      - redis
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
   mysql:
-    image: mysql
+    image: mysql:8.0
     container_name: mysql-db-container
     environment:
       MYSQL_ROOT_PASSWORD: 123
@@ -30,8 +33,14 @@ services:
       - spring-networks
     volumes:
       - mysql-volume:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-uroot", "-p123"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 30s
   redis:
-    image: redis
+    image: redis:latest
     container_name: redis-server-container
     ports:
       - "6379:6379"
@@ -39,8 +48,15 @@ services:
       - spring-networks
     volumes:
       - redis_volume:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 5s
 networks:
   spring-networks:
+
 volumes:
   mysql-volume:
   redis_volume:

@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.UUID;
 
 @Repository
-public interface IOrderItemRepository extends IRepository<OrderItem,UUID>{
+public interface IOrderItemGenericRepository extends IGenericRepository<OrderItem,UUID> {
 
     @Query("SELECT oi FROM OrderItem oi WHERE oi.order.id = :orderId")
     List<OrderItem> findAllByOrderId(@Param("orderId") UUID orderId);

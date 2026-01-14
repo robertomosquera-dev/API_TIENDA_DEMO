@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 import java.util.UUID;
 
 @Repository
-public interface ICustomerOrderViewRepository extends IRepository<CustomerOrderView, UUID> {
+public interface ICustomerOrderViewGenericRepository extends IGenericRepository<CustomerOrderView, UUID> {
 }

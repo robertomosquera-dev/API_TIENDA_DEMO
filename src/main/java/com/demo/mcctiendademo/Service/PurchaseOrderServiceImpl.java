@@ -3,7 +3,7 @@ package com.demo.mcctiendademo.Service;
 import com.demo.mcctiendademo.Entity.Customer;
 import com.demo.mcctiendademo.Entity.Enum.StateOrder;
 import com.demo.mcctiendademo.Entity.PurchaseOrder;
-import com.demo.mcctiendademo.Repository.IPurchaseOrderRepository;
+import com.demo.mcctiendademo.Repository.IPurchaseOrderGenericRepository;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -17,7 +17,7 @@ import java.util.UUID;
 public class PurchaseOrderServiceImpl implements IPurchaseOrderService{
 
     private final ICustomerService customerService;
-    private final IPurchaseOrderRepository repository;
+    private final IPurchaseOrderGenericRepository repository;
 
     @Override
     public PurchaseOrder save(UUID customer_id) throws Exception {
