@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d %-5level 🚀 %logger - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+        <file>logs/app.log</file>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/app-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>15</maxHistory>
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>%d %-5level [%thread] %logger - %msg%n</pattern>
+        </encoder>
+
+    </appender>
+
+    <logger name="org.springframework" level="WARN"/>
+    <logger name="org.hibernate" level="ERROR"/>
+    <logger name="org.flywaydb" level="ERROR"/>
+
+    <logger name="com.demo.mcctiendademo" level="DEBUG"/>
+
+    <springProfile name ="local">
+
+        <root level="INFO">
+            <appender-ref ref="CONSOLE"/>
+            <appender-ref ref="FILE"/>
+        </root>
+
+    </springProfile>
+
+    <springProfile name ="test">
+        <root level="INFO">
+            <appender-ref ref="CONSOLE"/>
+        </root>
+    </springProfile>
+
+    <springProfile name ="docker">
+
+        <root level="INFO">
+            <appender-ref ref="CONSOLE"/>
+            <appender-ref ref="FILE"/>
+        </root>
+
+    </springProfile>
+
+
+</configuration>
+

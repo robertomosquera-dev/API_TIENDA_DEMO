@@ -1,0 +1,124 @@
+2026-01-14 14:50:21,431 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 3520 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-14 14:50:21,433 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "docker"
+2026-01-14 14:50:23,245 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-14 14:50:23,246 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-14 14:50:23,247 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-14 14:50:23,390 WARN  [restartedMain] org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'cacheManager' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'cacheManager' defined in class path resource [org/springframework/boot/cache/autoconfigure/RedisCacheConfiguration.class]: Unsatisfied dependency expressed through method 'cacheManager' parameter 4: Error creating bean with name 'org.springframework.boot.data.redis.autoconfigure.LettuceConnectionConfiguration': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'spring.data.redis-org.springframework.boot.data.redis.autoconfigure.DataRedisProperties': Could not bind properties to 'DataRedisProperties' : prefix=spring.data.redis, ignoreInvalidFields=false, ignoreUnknownFields=true
+2026-01-14 14:50:23,392 INFO  [restartedMain] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-01-14 14:50:23,420 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.data.redis.port' to int:
+
+    Property: spring.data.redis.port
+    Value: "${REDIS_PORT}"
+    Origin: class path resource [application-docker.yml] - 11:13
+    Reason: failed to convert java.lang.String to int (caused by java.lang.NumberFormatException: For input string: "${REDIS_PORT}")
+
+Action:
+
+Update your application's configuration
+
+2026-01-14 14:50:42,088 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 15988 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-14 14:50:42,090 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "docker"
+2026-01-14 14:50:43,410 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-14 14:50:43,411 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-14 14:50:43,412 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-14 14:50:43,535 WARN  [restartedMain] org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'cacheManager' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'cacheManager' defined in class path resource [org/springframework/boot/cache/autoconfigure/RedisCacheConfiguration.class]: Unsatisfied dependency expressed through method 'cacheManager' parameter 4: Error creating bean with name 'org.springframework.boot.data.redis.autoconfigure.LettuceConnectionConfiguration': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'spring.data.redis-org.springframework.boot.data.redis.autoconfigure.DataRedisProperties': Could not bind properties to 'DataRedisProperties' : prefix=spring.data.redis, ignoreInvalidFields=false, ignoreUnknownFields=true
+2026-01-14 14:50:43,538 INFO  [restartedMain] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-01-14 14:50:43,569 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.data.redis.port' to int:
+
+    Property: spring.data.redis.port
+    Value: "${REDIS_PORT}"
+    Origin: class path resource [application-docker.yml] - 11:13
+    Reason: failed to convert java.lang.String to int (caused by java.lang.NumberFormatException: For input string: "${REDIS_PORT}")
+
+Action:
+
+Update your application's configuration
+
+2026-01-14 14:50:52,841 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 16720 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-14 14:50:52,844 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "docker"
+2026-01-14 14:50:54,176 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-14 14:50:54,177 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-14 14:50:54,177 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-14 14:50:54,294 WARN  [restartedMain] org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'cacheManager' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'cacheManager' defined in class path resource [org/springframework/boot/cache/autoconfigure/RedisCacheConfiguration.class]: Unsatisfied dependency expressed through method 'cacheManager' parameter 4: Error creating bean with name 'org.springframework.boot.data.redis.autoconfigure.LettuceConnectionConfiguration': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'spring.data.redis-org.springframework.boot.data.redis.autoconfigure.DataRedisProperties': Could not bind properties to 'DataRedisProperties' : prefix=spring.data.redis, ignoreInvalidFields=false, ignoreUnknownFields=true
+2026-01-14 14:50:54,296 INFO  [restartedMain] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-01-14 14:50:54,322 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.data.redis.port' to int:
+
+    Property: spring.data.redis.port
+    Value: "${REDIS_PORT}"
+    Origin: class path resource [application-docker.yml] - 11:13
+    Reason: failed to convert java.lang.String to int (caused by java.lang.NumberFormatException: For input string: "${REDIS_PORT}")
+
+Action:
+
+Update your application's configuration
+
+2026-01-14 14:51:09,649 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 15932 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-14 14:51:09,653 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-14 14:51:11,025 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-14 14:51:11,026 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-14 14:51:11,026 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-14 14:51:11,692 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-14 14:51:11,821 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75a2b632
+2026-01-14 14:51:11,823 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-14 14:51:11,860 INFO  [restartedMain] org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/tienda_demo?useSSL=false&serverTimezone=UTC (MySQL 8.4)
+2026-01-14 14:51:11,871 WARN  [restartedMain] org.flywaydb.core.internal.database.base.Database - Using MySQL 8.4 which is newer than the version Flyway has been verified with. The latest verified version of MySQL is 8.1.
+2026-01-14 14:51:11,914 INFO  [restartedMain] org.flywaydb.core.internal.command.DbValidate - Successfully validated 4 migrations (execution time 00:00.031s)
+2026-01-14 14:51:11,928 INFO  [restartedMain] org.flywaydb.core.internal.command.DbMigrate - Current version of schema `tienda_demo`: 4
+2026-01-14 14:51:11,932 INFO  [restartedMain] org.flywaydb.core.internal.command.DbMigrate - Schema `tienda_demo` is up to date. No migration necessary.
+2026-01-14 14:51:14,367 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-14 14:51:14,808 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-14 14:51:14,828 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 5.699 seconds (process running for 6.461)
+2026-01-14 14:51:57,626 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-14 14:51:57,635 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-14 14:52:17,495 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 8060 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-14 14:52:17,498 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-14 14:52:18,862 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-14 14:52:18,863 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-14 14:52:18,863 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-14 14:52:19,493 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-14 14:52:19,620 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f530c49
+2026-01-14 14:52:19,622 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-14 14:52:22,038 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-14 14:52:22,478 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-14 14:52:22,501 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 5.541 seconds (process running for 6.326)
+2026-01-14 14:53:03,460 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-14 14:53:03,466 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-14 15:09:06,333 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 6792 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-14 15:09:06,335 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-14 15:09:06,336 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-14 15:09:07,757 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-14 15:09:07,759 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-14 15:09:07,759 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-14 15:09:08,385 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-14 15:09:08,515 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f530c49
+2026-01-14 15:09:08,516 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-14 15:09:11,044 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-14 15:09:11,503 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-14 15:09:11,534 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 5.71 seconds (process running for 6.433)
+2026-01-14 15:09:35,521 INFO  [http-nio-9090-exec-3] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-14 15:10:05,746 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-14 15:10:05,752 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

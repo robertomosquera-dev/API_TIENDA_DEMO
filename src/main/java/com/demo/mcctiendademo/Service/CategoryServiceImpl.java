@@ -7,6 +7,7 @@ import com.demo.mcctiendademo.Mapper.CategoryMapper;
 import com.demo.mcctiendademo.Repository.ICategoryGenericRepository;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
@@ -17,6 +18,7 @@ import java.util.UUID;
 
 @Service
 @RequiredArgsConstructor
+@Slf4j
 public class CategoryServiceImpl implements ICategoryService{
 
     private final ICategoryGenericRepository repository;
@@ -28,7 +30,13 @@ public class CategoryServiceImpl implements ICategoryService{
             key = "#id"
     )
     public CategoryCreateResponse findById(UUID id) throws Exception {
+        log.debug("Buscando categoria por id: {}", id);
+        if(id == null) {
+            log.error("id cannot be null");
+            throw new RuntimeException("id cannot be null");
+        }
         Category category = repository.findById(id).orElseThrow(() -> new EntityNotFoundException("Category not found"));
+        log.debug("Categoria encontrada: {}", category);
         return mapper.toDto(category);
     }
 
