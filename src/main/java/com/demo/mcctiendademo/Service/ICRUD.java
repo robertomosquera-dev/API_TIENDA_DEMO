@@ -1,12 +1,11 @@
 package com.demo.mcctiendademo.Service;
 
 import java.util.List;
-import java.util.UUID;
 
-public interface IService <T,D>{
+public interface ICRUD<T,ID,D>{
     T save(D dto) throws Exception;
     List<T> saveAll(List<D> dtoList) throws Exception;
-    T findById(UUID id) throws Exception;
+    T findById(ID id) throws Exception;
     List<T> findAll() throws Exception;
-    void delete(UUID id) throws Exception;
+    void delete(ID id) throws Exception;
 }

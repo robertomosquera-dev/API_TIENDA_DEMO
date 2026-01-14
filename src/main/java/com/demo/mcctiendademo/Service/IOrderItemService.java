@@ -8,6 +8,6 @@ import java.util.List;
 import java.util.UUID;
 
 
-public interface IOrderItemService extends IService<OrderItemCreateResponse, OrderItemCreateRequest>{
+public interface IOrderItemService extends ICRUD<OrderItemCreateResponse, UUID,OrderItemCreateRequest> {
     List<OrderItemCreateResponse> findByOrderId(UUID orderId);
 }

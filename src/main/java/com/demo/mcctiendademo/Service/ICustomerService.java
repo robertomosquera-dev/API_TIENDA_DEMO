@@ -6,6 +6,6 @@ import com.demo.mcctiendademo.Http.Response.CustomerCreateResponse;
 
 import java.util.UUID;
 
-public interface ICustomerService extends IService<CustomerCreateResponse, CustomerCreateRequest> {
+public interface ICustomerService extends ICRUD<CustomerCreateResponse, UUID,CustomerCreateRequest> {
     Customer findEntityById(UUID id);
 }
