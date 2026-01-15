@@ -7,6 +7,7 @@ import com.demo.mcctiendademo.Util.SuccessMessage;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -15,12 +16,14 @@ import java.util.UUID;
 @RestController
 @RequestMapping("${version.api}/category")
 @RequiredArgsConstructor
+@PreAuthorize("denyAll()")
 public class CategoryController implements IController<CategoryCreateRequest>{
 
     private final ICategoryService service;
 
     @PostMapping("/save")
     @Override
+    @PreAuthorize("hasAuthority('CREATE')")
     public ResponseEntity<?> saveEndPoint(@RequestBody CategoryCreateRequest data) throws Exception {
         CategoryCreateResponse category = service.save(data);
         System.out.println(category.name());
@@ -30,6 +33,7 @@ public class CategoryController implements IController<CategoryCreateRequest>{
 
     @PostMapping("/saveAll")
     @Override
+    @PreAuthorize("hasAuthority('CREATE')")
     public ResponseEntity<?> saveAllEndPoint(@RequestBody List<CategoryCreateRequest> listData) throws Exception {
         List<CategoryCreateResponse> listCategory = service.saveAll(listData);
         SuccessMessage successMessage = SuccessMessage.success(HttpStatus.CREATED,"list create",listCategory);
@@ -38,6 +42,7 @@ public class CategoryController implements IController<CategoryCreateRequest>{
 
     @GetMapping("/getAll")
     @Override
+    @PreAuthorize("hasAuthority('READ')")
     public ResponseEntity<?> getAllEndPoint() throws Exception {
         List<CategoryCreateResponse> listCategory = service.findAll();
         SuccessMessage successMessage = SuccessMessage.success(HttpStatus.OK,"list get",listCategory);
@@ -47,6 +52,7 @@ public class CategoryController implements IController<CategoryCreateRequest>{
 
     @GetMapping("/{id}")
     @Override
+    @PreAuthorize("hasAuthority('READ')")
     public ResponseEntity<?> getByIdEndPoint(@PathVariable UUID id) throws Exception {
         CategoryCreateResponse category = service.findById(id);
         SuccessMessage successMessage = SuccessMessage.success(HttpStatus.OK,"recurse get",category);
@@ -55,6 +61,7 @@ public class CategoryController implements IController<CategoryCreateRequest>{
 
     @DeleteMapping("/{id}")
     @Override
+    @PreAuthorize("hasAuthority('DELETE')")
     public ResponseEntity<?> deleteEndPoint(@PathVariable UUID id) throws Exception {
         service.delete(id);
         SuccessMessage successMessage = SuccessMessage.success(HttpStatus.NO_CONTENT,"recurse delete",null);

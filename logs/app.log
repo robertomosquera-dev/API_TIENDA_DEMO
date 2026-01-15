@@ -1,124 +1,746 @@
-2026-01-14 14:50:21,431 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 3520 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
-2026-01-14 14:50:21,433 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "docker"
-2026-01-14 14:50:23,245 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
-2026-01-14 14:50:23,246 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2026-01-14 14:50:23,247 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-01-14 14:50:23,390 WARN  [restartedMain] org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'cacheManager' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'cacheManager' defined in class path resource [org/springframework/boot/cache/autoconfigure/RedisCacheConfiguration.class]: Unsatisfied dependency expressed through method 'cacheManager' parameter 4: Error creating bean with name 'org.springframework.boot.data.redis.autoconfigure.LettuceConnectionConfiguration': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'spring.data.redis-org.springframework.boot.data.redis.autoconfigure.DataRedisProperties': Could not bind properties to 'DataRedisProperties' : prefix=spring.data.redis, ignoreInvalidFields=false, ignoreUnknownFields=true
-2026-01-14 14:50:23,392 INFO  [restartedMain] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2026-01-14 14:50:23,420 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Failed to bind properties under 'spring.data.redis.port' to int:
-
-    Property: spring.data.redis.port
-    Value: "${REDIS_PORT}"
-    Origin: class path resource [application-docker.yml] - 11:13
-    Reason: failed to convert java.lang.String to int (caused by java.lang.NumberFormatException: For input string: "${REDIS_PORT}")
-
-Action:
-
-Update your application's configuration
-
-2026-01-14 14:50:42,088 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 15988 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
-2026-01-14 14:50:42,090 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "docker"
-2026-01-14 14:50:43,410 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
-2026-01-14 14:50:43,411 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2026-01-14 14:50:43,412 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-01-14 14:50:43,535 WARN  [restartedMain] org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'cacheManager' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'cacheManager' defined in class path resource [org/springframework/boot/cache/autoconfigure/RedisCacheConfiguration.class]: Unsatisfied dependency expressed through method 'cacheManager' parameter 4: Error creating bean with name 'org.springframework.boot.data.redis.autoconfigure.LettuceConnectionConfiguration': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'spring.data.redis-org.springframework.boot.data.redis.autoconfigure.DataRedisProperties': Could not bind properties to 'DataRedisProperties' : prefix=spring.data.redis, ignoreInvalidFields=false, ignoreUnknownFields=true
-2026-01-14 14:50:43,538 INFO  [restartedMain] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2026-01-14 14:50:43,569 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Failed to bind properties under 'spring.data.redis.port' to int:
-
-    Property: spring.data.redis.port
-    Value: "${REDIS_PORT}"
-    Origin: class path resource [application-docker.yml] - 11:13
-    Reason: failed to convert java.lang.String to int (caused by java.lang.NumberFormatException: For input string: "${REDIS_PORT}")
-
-Action:
-
-Update your application's configuration
-
-2026-01-14 14:50:52,841 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 16720 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
-2026-01-14 14:50:52,844 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "docker"
-2026-01-14 14:50:54,176 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
-2026-01-14 14:50:54,177 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2026-01-14 14:50:54,177 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-01-14 14:50:54,294 WARN  [restartedMain] org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/hibernate/autoconfigure/HibernateJpaConfiguration.class]: Failed to initialize dependency 'cacheManager' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'cacheManager' defined in class path resource [org/springframework/boot/cache/autoconfigure/RedisCacheConfiguration.class]: Unsatisfied dependency expressed through method 'cacheManager' parameter 4: Error creating bean with name 'org.springframework.boot.data.redis.autoconfigure.LettuceConnectionConfiguration': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'spring.data.redis-org.springframework.boot.data.redis.autoconfigure.DataRedisProperties': Could not bind properties to 'DataRedisProperties' : prefix=spring.data.redis, ignoreInvalidFields=false, ignoreUnknownFields=true
-2026-01-14 14:50:54,296 INFO  [restartedMain] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
-2026-01-14 14:50:54,322 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Failed to bind properties under 'spring.data.redis.port' to int:
-
-    Property: spring.data.redis.port
-    Value: "${REDIS_PORT}"
-    Origin: class path resource [application-docker.yml] - 11:13
-    Reason: failed to convert java.lang.String to int (caused by java.lang.NumberFormatException: For input string: "${REDIS_PORT}")
-
-Action:
-
-Update your application's configuration
-
-2026-01-14 14:51:09,649 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 15932 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
-2026-01-14 14:51:09,653 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
-2026-01-14 14:51:11,025 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
-2026-01-14 14:51:11,026 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2026-01-14 14:51:11,026 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-01-14 14:51:11,692 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2026-01-14 14:51:11,821 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75a2b632
-2026-01-14 14:51:11,823 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2026-01-14 14:51:11,860 INFO  [restartedMain] org.flywaydb.core.FlywayExecutor - Database: jdbc:mysql://localhost:3306/tienda_demo?useSSL=false&serverTimezone=UTC (MySQL 8.4)
-2026-01-14 14:51:11,871 WARN  [restartedMain] org.flywaydb.core.internal.database.base.Database - Using MySQL 8.4 which is newer than the version Flyway has been verified with. The latest verified version of MySQL is 8.1.
-2026-01-14 14:51:11,914 INFO  [restartedMain] org.flywaydb.core.internal.command.DbValidate - Successfully validated 4 migrations (execution time 00:00.031s)
-2026-01-14 14:51:11,928 INFO  [restartedMain] org.flywaydb.core.internal.command.DbMigrate - Current version of schema `tienda_demo`: 4
-2026-01-14 14:51:11,932 INFO  [restartedMain] org.flywaydb.core.internal.command.DbMigrate - Schema `tienda_demo` is up to date. No migration necessary.
-2026-01-14 14:51:14,367 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-14 14:51:14,808 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
-2026-01-14 14:51:14,828 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 5.699 seconds (process running for 6.461)
-2026-01-14 14:51:57,626 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2026-01-14 14:51:57,635 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2026-01-14 14:52:17,495 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 8060 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
-2026-01-14 14:52:17,498 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
-2026-01-14 14:52:18,862 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
-2026-01-14 14:52:18,863 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2026-01-14 14:52:18,863 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-01-14 14:52:19,493 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2026-01-14 14:52:19,620 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f530c49
-2026-01-14 14:52:19,622 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2026-01-14 14:52:22,038 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-14 14:52:22,478 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
-2026-01-14 14:52:22,501 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 5.541 seconds (process running for 6.326)
-2026-01-14 14:53:03,460 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2026-01-14 14:53:03,466 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2026-01-14 15:09:06,333 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 6792 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
-2026-01-14 15:09:06,335 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
-2026-01-14 15:09:06,336 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
-2026-01-14 15:09:07,757 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
-2026-01-14 15:09:07,759 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2026-01-14 15:09:07,759 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
-2026-01-14 15:09:08,385 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2026-01-14 15:09:08,515 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f530c49
-2026-01-14 15:09:08,516 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2026-01-14 15:09:11,044 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-01-14 15:09:11,503 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
-2026-01-14 15:09:11,534 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 5.71 seconds (process running for 6.433)
-2026-01-14 15:09:35,521 INFO  [http-nio-9090-exec-3] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-01-14 15:10:05,746 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2026-01-14 15:10:05,752 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-15 13:56:56,466 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 15416 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 13:56:56,482 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 13:56:56,483 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 13:56:58,760 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 13:56:58,762 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 13:56:58,762 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 13:57:00,029 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-15 13:57:00,708 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c87c5a4
+2026-01-15 13:57:00,710 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-15 13:57:04,247 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 13:57:04,345 WARN  [restartedMain] org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'securityFilterChain' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Unsatisfied dependency expressed through method 'securityFilterChain' parameter 0: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: userDetailsService cannot be null
+2026-01-15 13:57:04,348 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-15 13:57:04,358 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-15 13:57:04,371 INFO  [restartedMain] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-01-15 13:57:04,396 ERROR [restartedMain] org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'securityFilterChain' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Unsatisfied dependency expressed through method 'securityFilterChain' parameter 0: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: userDetailsService cannot be null
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:871)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:826)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:492)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1446)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:993)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.demo.mcctiendademo.MccTiendaDemoApplication.main(MccTiendaDemoApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Unsatisfied dependency expressed through method 'securityFilterChain' parameter 0: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: userDetailsService cannot be null
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:2008)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1971)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeanCollection(DefaultListableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1711)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:863)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: userDetailsService cannot be null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:489)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:351)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 42 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: userDetailsService cannot be null
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 54 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationProvider' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: userDetailsService cannot be null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:489)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1284)
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer.configure(InitializeAuthenticationProviderBeanManagerConfigurer.java:78)
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer.configure(InitializeAuthenticationProviderBeanManagerConfigurer.java:56)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.configure(AbstractConfiguredSecurityBuilder.java:386)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:336)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38)
+	at org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.getAuthenticationManager(AuthenticationConfiguration.java:121)
+	at org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.authenticationManager(HttpSecurityConfiguration.java:152)
+	at org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity(HttpSecurityConfiguration.java:119)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155)
+	... 57 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.authentication.AuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: userDetailsService cannot be null
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 78 common frames omitted
+Caused by: java.lang.IllegalArgumentException: userDetailsService cannot be null
+	at org.springframework.util.Assert.notNull(Assert.java:182)
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.<init>(DaoAuthenticationProvider.java:74)
+	at com.demo.mcctiendademo.Config.SecurityConfig.authenticationProvider(SecurityConfig.java:56)
+	at com.demo.mcctiendademo.Config.SecurityConfig$$SpringCGLIB$$0.CGLIB$authenticationProvider$4(<generated>)
+	at com.demo.mcctiendademo.Config.SecurityConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:398)
+	at com.demo.mcctiendademo.Config.SecurityConfig$$SpringCGLIB$$0.authenticationProvider(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155)
+	... 81 common frames omitted
+2026-01-15 13:59:00,435 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 1472 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 13:59:00,436 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 13:59:00,437 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 13:59:01,930 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 13:59:01,931 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 13:59:01,931 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 13:59:02,597 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-15 13:59:02,723 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1eaf1685
+2026-01-15 13:59:02,725 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-15 13:59:05,328 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 13:59:05,414 WARN  [restartedMain] org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'securityFilterChain' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Unsatisfied dependency expressed through method 'securityFilterChain' parameter 0: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: userDetailsService cannot be null
+2026-01-15 13:59:05,418 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-15 13:59:05,424 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-15 13:59:05,434 INFO  [restartedMain] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-01-15 13:59:05,455 ERROR [restartedMain] org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'securityFilterChain' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Unsatisfied dependency expressed through method 'securityFilterChain' parameter 0: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: userDetailsService cannot be null
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:871)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:826)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:492)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1446)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:993)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.demo.mcctiendademo.MccTiendaDemoApplication.main(MccTiendaDemoApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Unsatisfied dependency expressed through method 'securityFilterChain' parameter 0: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: userDetailsService cannot be null
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:2008)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1971)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeanCollection(DefaultListableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1711)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:863)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: userDetailsService cannot be null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:489)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:351)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 42 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: userDetailsService cannot be null
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 54 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationProvider' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: userDetailsService cannot be null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:489)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1284)
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer.configure(InitializeAuthenticationProviderBeanManagerConfigurer.java:78)
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer.configure(InitializeAuthenticationProviderBeanManagerConfigurer.java:56)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.configure(AbstractConfiguredSecurityBuilder.java:386)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:336)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38)
+	at org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.getAuthenticationManager(AuthenticationConfiguration.java:121)
+	at org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.authenticationManager(HttpSecurityConfiguration.java:152)
+	at org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity(HttpSecurityConfiguration.java:119)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155)
+	... 57 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.authentication.AuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: userDetailsService cannot be null
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 78 common frames omitted
+Caused by: java.lang.IllegalArgumentException: userDetailsService cannot be null
+	at org.springframework.util.Assert.notNull(Assert.java:182)
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.<init>(DaoAuthenticationProvider.java:74)
+	at com.demo.mcctiendademo.Config.SecurityConfig.authenticationProvider(SecurityConfig.java:58)
+	at com.demo.mcctiendademo.Config.SecurityConfig$$SpringCGLIB$$0.CGLIB$authenticationProvider$4(<generated>)
+	at com.demo.mcctiendademo.Config.SecurityConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:398)
+	at com.demo.mcctiendademo.Config.SecurityConfig$$SpringCGLIB$$0.authenticationProvider(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155)
+	... 81 common frames omitted
+2026-01-15 13:59:16,830 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 14988 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 13:59:16,832 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 13:59:16,833 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 13:59:18,452 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 13:59:18,453 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 13:59:18,453 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 13:59:19,113 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-15 13:59:19,241 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1eaf1685
+2026-01-15 13:59:19,242 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-15 13:59:21,762 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 13:59:21,852 WARN  [restartedMain] org.springframework.boot.web.server.servlet.context.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'securityFilterChain' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Unsatisfied dependency expressed through method 'securityFilterChain' parameter 0: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: userDetailsService cannot be null
+2026-01-15 13:59:21,857 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-15 13:59:21,865 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-15 13:59:21,878 INFO  [restartedMain] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-01-15 13:59:21,905 ERROR [restartedMain] org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': Unsatisfied dependency expressed through method 'setFilterChains' parameter 0: Error creating bean with name 'securityFilterChain' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Unsatisfied dependency expressed through method 'securityFilterChain' parameter 0: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: userDetailsService cannot be null
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:871)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.inject(AutowiredAnnotationBeanPostProcessor.java:826)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:492)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1446)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:993)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.demo.mcctiendademo.MccTiendaDemoApplication.main(MccTiendaDemoApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'securityFilterChain' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Unsatisfied dependency expressed through method 'securityFilterChain' parameter 0: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: userDetailsService cannot be null
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:2008)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1971)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeanCollection(DefaultListableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1833)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1711)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredMethodElement.resolveMethodArguments(AutowiredAnnotationBeanPostProcessor.java:863)
+	... 25 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity' defined in class path resource [org/springframework/security/config/annotation/web/configuration/HttpSecurityConfiguration.class]: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: userDetailsService cannot be null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:489)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:351)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:229)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1762)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1651)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 42 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.config.annotation.web.builders.HttpSecurity]: Factory method 'httpSecurity' threw exception with message: Error creating bean with name 'authenticationProvider' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: userDetailsService cannot be null
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 54 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'authenticationProvider' defined in class path resource [com/demo/mcctiendademo/Config/SecurityConfig.class]: Failed to instantiate [org.springframework.security.authentication.AuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: userDetailsService cannot be null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:489)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1362)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1284)
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer.configure(InitializeAuthenticationProviderBeanManagerConfigurer.java:78)
+	at org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer.configure(InitializeAuthenticationProviderBeanManagerConfigurer.java:56)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.configure(AbstractConfiguredSecurityBuilder.java:386)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:336)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38)
+	at org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.getAuthenticationManager(AuthenticationConfiguration.java:121)
+	at org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.authenticationManager(HttpSecurityConfiguration.java:152)
+	at org.springframework.security.config.annotation.web.configuration.HttpSecurityConfiguration.httpSecurity(HttpSecurityConfiguration.java:119)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155)
+	... 57 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.security.authentication.AuthenticationProvider]: Factory method 'authenticationProvider' threw exception with message: userDetailsService cannot be null
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:183)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiateWithFactoryMethod(SimpleInstantiationStrategy.java:72)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:152)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 78 common frames omitted
+Caused by: java.lang.IllegalArgumentException: userDetailsService cannot be null
+	at org.springframework.util.Assert.notNull(Assert.java:182)
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.<init>(DaoAuthenticationProvider.java:74)
+	at com.demo.mcctiendademo.Config.SecurityConfig.authenticationProvider(SecurityConfig.java:58)
+	at com.demo.mcctiendademo.Config.SecurityConfig$$SpringCGLIB$$0.CGLIB$authenticationProvider$3(<generated>)
+	at com.demo.mcctiendademo.Config.SecurityConfig$$SpringCGLIB$$FastClass$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:398)
+	at com.demo.mcctiendademo.Config.SecurityConfig$$SpringCGLIB$$0.authenticationProvider(<generated>)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.lambda$instantiate$0(SimpleInstantiationStrategy.java:155)
+	... 81 common frames omitted
+2026-01-15 14:03:04,337 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 6140 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 14:03:04,339 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 14:03:04,340 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 14:03:05,936 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:03:05,938 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 14:03:05,938 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 14:03:06,602 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-15 14:03:06,726 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56c5e8d0
+2026-01-15 14:03:06,727 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-15 14:03:09,252 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 14:03:09,345 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-15 14:03:10,103 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:03:10,126 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 6.301 seconds (process running for 7.225)
+2026-01-15 14:03:24,937 INFO  [http-nio-9090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-15 14:04:00,667 INFO  [tomcat-shutdown] org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:04:00,673 INFO  [Thread-1] org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:04:00,689 INFO  [Thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-15 14:04:00,695 INFO  [Thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-15 14:04:00,823 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 6140 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 14:04:00,823 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 14:04:00,823 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 14:04:01,172 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:04:01,173 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 14:04:01,174 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 14:04:01,279 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2026-01-15 14:04:01,282 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75952f16
+2026-01-15 14:04:01,282 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2026-01-15 14:04:01,673 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 14:04:01,933 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:04:01,939 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 1.146 seconds (process running for 59.038)
+2026-01-15 14:04:03,249 INFO  [tomcat-shutdown] org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:04:03,255 INFO  [Thread-5] org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:04:03,257 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2026-01-15 14:04:03,259 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2026-01-15 14:04:03,360 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 6140 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 14:04:03,360 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 14:04:03,360 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 14:04:03,678 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:04:03,678 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 14:04:03,678 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 14:04:03,792 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2026-01-15 14:04:03,796 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23b8e174
+2026-01-15 14:04:03,796 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2026-01-15 14:04:04,182 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 14:04:04,232 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-15 14:04:04,509 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:04:04,517 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 1.183 seconds (process running for 61.617)
+2026-01-15 14:08:46,407 INFO  [tomcat-shutdown] org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:08:46,412 INFO  [Thread-9] org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:08:46,415 INFO  [Thread-9] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2026-01-15 14:08:46,417 INFO  [Thread-9] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2026-01-15 14:08:46,529 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 6140 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 14:08:46,530 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 14:08:46,530 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 14:08:46,825 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:08:46,825 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 14:08:46,826 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 14:08:46,925 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2026-01-15 14:08:46,930 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3fbe59b8
+2026-01-15 14:08:46,930 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2026-01-15 14:08:47,416 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 14:08:47,693 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:08:47,697 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 1.197 seconds (process running for 344.796)
+2026-01-15 14:08:49,003 INFO  [tomcat-shutdown] org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:08:49,011 INFO  [Thread-13] org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:08:49,013 INFO  [Thread-13] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2026-01-15 14:08:49,013 INFO  [Thread-13] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2026-01-15 14:08:49,121 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 6140 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 14:08:49,121 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 14:08:49,121 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 14:08:49,446 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:08:49,446 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 14:08:49,446 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 14:08:49,726 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2026-01-15 14:08:49,754 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5723a71d
+2026-01-15 14:08:49,754 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2026-01-15 14:08:50,338 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 14:08:50,389 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-15 14:08:50,684 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:08:50,689 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 1.599 seconds (process running for 347.789)
+2026-01-15 14:10:47,032 INFO  [tomcat-shutdown] org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:10:47,039 INFO  [Thread-17] org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:10:47,042 INFO  [Thread-17] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2026-01-15 14:10:47,045 INFO  [Thread-17] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2026-01-15 14:10:47,149 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 6140 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 14:10:47,149 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 14:10:47,149 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 14:10:47,457 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:10:47,457 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 14:10:47,457 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 14:10:47,671 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2026-01-15 14:10:47,675 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18963a5e
+2026-01-15 14:10:47,675 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2026-01-15 14:10:48,014 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 14:10:48,286 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:10:48,292 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 1.168 seconds (process running for 465.391)
+2026-01-15 14:10:49,600 INFO  [tomcat-shutdown] org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:10:49,605 INFO  [Thread-21] org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:10:49,608 INFO  [Thread-21] com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2026-01-15 14:10:49,610 INFO  [Thread-21] com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2026-01-15 14:10:49,709 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 6140 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 14:10:49,709 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 14:10:49,709 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 14:10:50,034 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:10:50,034 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 14:10:50,034 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 14:10:50,161 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2026-01-15 14:10:50,165 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a046946
+2026-01-15 14:10:50,166 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2026-01-15 14:10:50,830 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 14:10:50,882 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-15 14:10:51,173 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:10:51,178 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 1.496 seconds (process running for 468.277)
+2026-01-15 14:10:58,465 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2026-01-15 14:10:58,467 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2026-01-15 14:58:58,984 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 3164 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 14:58:58,986 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 14:58:58,987 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 14:59:00,576 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:59:00,577 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 14:59:00,578 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 14:59:01,274 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-15 14:59:01,420 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6da20d6e
+2026-01-15 14:59:01,422 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-15 14:59:04,098 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 14:59:04,193 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-15 14:59:04,862 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-15 14:59:04,884 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 6.407 seconds (process running for 7.111)
+2026-01-15 15:01:28,248 INFO  [http-nio-9090-exec-4] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-15 15:02:46,221 INFO  [tomcat-shutdown] org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:02:46,227 INFO  [Thread-1] org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:02:46,241 INFO  [Thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-15 15:02:46,247 INFO  [Thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-15 15:02:46,368 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 3164 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 15:02:46,368 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 15:02:46,368 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 15:02:46,767 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:02:46,768 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 15:02:46,768 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 15:02:46,895 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2026-01-15 15:02:46,900 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66f0da00
+2026-01-15 15:02:46,901 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2026-01-15 15:02:47,339 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 15:02:47,653 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:02:47,659 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 1.324 seconds (process running for 229.887)
+2026-01-15 15:02:48,964 INFO  [tomcat-shutdown] org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:02:48,982 INFO  [Thread-5] org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:02:48,985 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2026-01-15 15:02:48,987 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2026-01-15 15:02:49,081 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 3164 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 15:02:49,082 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 15:02:49,082 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 15:02:49,383 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:02:49,383 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 15:02:49,383 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 15:02:49,506 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2026-01-15 15:02:49,509 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44342858
+2026-01-15 15:02:49,510 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2026-01-15 15:02:49,930 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 15:02:49,986 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-15 15:02:50,307 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:02:50,312 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 1.253 seconds (process running for 232.54)
+2026-01-15 15:03:15,848 INFO  [http-nio-9090-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-15 15:09:40,603 INFO  [tomcat-shutdown] org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:09:40,610 INFO  [Thread-9] org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:09:40,621 INFO  [Thread-9] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2026-01-15 15:09:40,623 INFO  [Thread-9] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2026-01-15 15:09:40,722 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 3164 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 15:09:40,722 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 15:09:40,722 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 15:09:41,045 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:09:41,045 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 15:09:41,045 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 15:09:41,156 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2026-01-15 15:09:41,161 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f0e86a5
+2026-01-15 15:09:41,161 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2026-01-15 15:09:41,532 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 15:09:41,760 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:09:41,764 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 1.065 seconds (process running for 643.992)
+2026-01-15 15:09:43,087 INFO  [tomcat-shutdown] org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:09:43,093 INFO  [Thread-13] org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:09:43,096 INFO  [Thread-13] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2026-01-15 15:09:43,098 INFO  [Thread-13] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2026-01-15 15:09:43,190 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 3164 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 15:09:43,190 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 15:09:43,190 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 15:09:43,501 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:09:43,501 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 15:09:43,501 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 15:09:43,611 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2026-01-15 15:09:43,614 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33562df6
+2026-01-15 15:09:43,614 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2026-01-15 15:09:44,016 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 15:09:44,067 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-15 15:09:44,378 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:09:44,383 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 1.214 seconds (process running for 646.611)
+2026-01-15 15:09:49,005 INFO  [http-nio-9090-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-15 15:10:36,910 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2026-01-15 15:10:36,912 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2026-01-15 15:13:05,335 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 17700 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 15:13:05,337 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 15:13:05,337 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 15:13:07,011 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:13:07,012 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 15:13:07,012 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 15:13:07,659 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-15 15:13:07,790 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9d35e1d
+2026-01-15 15:13:07,791 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-15 15:13:10,533 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 15:13:10,622 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-15 15:13:11,325 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:13:11,349 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 6.55 seconds (process running for 7.289)
+2026-01-15 15:13:17,768 INFO  [http-nio-9090-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-15 15:14:12,365 INFO  [tomcat-shutdown] org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:14:12,373 INFO  [Thread-1] org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:14:12,383 INFO  [Thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-15 15:14:12,390 INFO  [Thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-15 15:14:12,504 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 17700 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 15:14:12,505 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 15:14:12,506 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 15:14:12,877 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:14:12,877 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 15:14:12,877 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 15:14:13,006 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2026-01-15 15:14:13,011 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b1ebcf5
+2026-01-15 15:14:13,011 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2026-01-15 15:14:13,453 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 15:14:13,506 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-15 15:14:13,808 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:14:13,813 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 1.339 seconds (process running for 69.752)
+2026-01-15 15:14:15,225 INFO  [tomcat-shutdown] org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:14:15,229 INFO  [Thread-5] org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:14:15,229 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2026-01-15 15:14:15,235 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2026-01-15 15:14:15,330 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 17700 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 15:14:15,330 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 15:14:15,330 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 15:14:15,746 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:14:15,746 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 15:14:15,746 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 15:14:15,872 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2026-01-15 15:14:15,876 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@729a32bc
+2026-01-15 15:14:15,877 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2026-01-15 15:14:16,376 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 15:14:16,498 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-15 15:14:16,836 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:14:16,840 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 1.532 seconds (process running for 72.78)
+2026-01-15 15:14:38,747 INFO  [tomcat-shutdown] org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:14:38,752 INFO  [Thread-9] org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:14:38,759 INFO  [Thread-9] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2026-01-15 15:14:38,794 INFO  [Thread-9] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2026-01-15 15:14:38,947 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 17700 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 15:14:38,947 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 15:14:38,947 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 15:14:39,274 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:14:39,274 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 15:14:39,274 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 15:14:39,397 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2026-01-15 15:14:39,400 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@227ba974
+2026-01-15 15:14:39,400 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2026-01-15 15:14:39,824 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 15:14:39,880 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-15 15:14:40,185 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:14:40,191 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 1.272 seconds (process running for 96.131)
+2026-01-15 15:14:41,623 INFO  [tomcat-shutdown] org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:14:41,627 INFO  [Thread-13] org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:14:41,634 INFO  [Thread-13] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2026-01-15 15:14:41,731 INFO  [Thread-13] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2026-01-15 15:14:41,855 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 17700 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 15:14:41,855 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 15:14:41,855 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 15:14:42,243 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:14:42,244 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 15:14:42,244 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 15:14:42,365 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2026-01-15 15:14:42,369 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9d5de1f
+2026-01-15 15:14:42,369 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2026-01-15 15:14:42,768 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 15:14:42,826 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-15 15:14:43,164 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:14:43,171 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 1.34 seconds (process running for 99.11)
+2026-01-15 15:15:49,744 INFO  [tomcat-shutdown] org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:15:49,750 INFO  [Thread-17] org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:15:49,753 INFO  [Thread-17] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2026-01-15 15:15:49,755 INFO  [Thread-17] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2026-01-15 15:15:49,870 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 17700 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 15:15:49,871 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 15:15:49,871 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 15:15:50,251 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:15:50,251 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 15:15:50,251 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 15:15:50,371 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2026-01-15 15:15:50,375 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@56b442b5
+2026-01-15 15:15:50,375 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2026-01-15 15:15:50,750 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 15:15:50,816 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-15 15:15:51,172 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:15:51,177 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 1.334 seconds (process running for 167.116)
+2026-01-15 15:15:52,575 INFO  [tomcat-shutdown] org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:15:52,575 INFO  [Thread-21] org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:15:52,575 INFO  [Thread-21] com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2026-01-15 15:15:52,575 INFO  [Thread-21] com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2026-01-15 15:15:52,712 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 17700 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 15:15:52,712 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 15:15:52,712 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 15:15:53,075 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:15:53,075 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 15:15:53,075 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 15:15:53,186 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2026-01-15 15:15:53,186 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@339bca3
+2026-01-15 15:15:53,186 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2026-01-15 15:15:53,568 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 15:15:53,622 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-15 15:15:53,911 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:15:53,918 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 1.229 seconds (process running for 169.858)
+2026-01-15 15:15:56,798 INFO  [http-nio-9090-exec-3] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-15 15:20:37,960 INFO  [tomcat-shutdown] org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:20:37,966 INFO  [Thread-25] org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:20:37,982 INFO  [Thread-25] com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2026-01-15 15:20:37,984 INFO  [Thread-25] com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2026-01-15 15:20:38,089 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 17700 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 15:20:38,089 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 15:20:38,089 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 15:20:38,384 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:20:38,384 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 15:20:38,384 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 15:20:38,474 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2026-01-15 15:20:38,478 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@351107b4
+2026-01-15 15:20:38,479 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2026-01-15 15:20:38,923 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 15:20:39,217 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:20:39,225 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 1.158 seconds (process running for 455.164)
+2026-01-15 15:20:40,523 INFO  [tomcat-shutdown] org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:20:40,529 INFO  [Thread-29] org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:20:40,531 INFO  [Thread-29] com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+2026-01-15 15:20:40,533 INFO  [Thread-29] com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+2026-01-15 15:20:40,624 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 17700 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 15:20:40,624 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 15:20:40,625 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 15:20:40,925 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:20:40,925 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 15:20:40,925 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 15:20:41,040 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+2026-01-15 15:20:41,043 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72c95895
+2026-01-15 15:20:41,043 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+2026-01-15 15:20:41,418 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 15:20:41,470 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-15 15:20:41,743 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-15 15:20:41,748 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 1.143 seconds (process running for 457.687)
+2026-01-15 15:20:44,565 INFO  [http-nio-9090-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-15 15:21:33,147 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+2026-01-15 15:21:33,150 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
+2026-01-15 16:16:10,325 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 18004 (D:\Proyectos\mcc-tienda-demo\target\classes started by USUARIO in D:\Proyectos\mcc-tienda-demo)
+2026-01-15 16:16:10,327 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-15 16:16:10,327 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-15 16:16:12,083 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-15 16:16:12,085 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-15 16:16:12,085 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-15 16:16:12,777 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-15 16:16:12,903 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32ca1eee
+2026-01-15 16:16:12,904 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-15 16:16:16,157 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-15 16:16:16,256 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-15 16:16:16,955 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-15 16:16:16,976 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 7.178 seconds (process running for 8.181)
+2026-01-15 16:16:32,169 INFO  [http-nio-9090-exec-4] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-15 16:20:12,453 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-15 16:20:12,459 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

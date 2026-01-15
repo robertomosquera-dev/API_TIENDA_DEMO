@@ -29,4 +29,15 @@ public class Customer {
 
     @Enumerated(EnumType.STRING)
     private StateDelete stateDelete = StateDelete.ACTIVE;
+
+    @OneToOne(
+            cascade = {CascadeType.MERGE,CascadeType.REFRESH},
+            fetch = FetchType.LAZY
+    )
+    @JoinColumn(
+            name = "user_id",
+            referencedColumnName = "user_id"
+    )
+    private User user;
+
 }

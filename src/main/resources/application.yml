@@ -12,8 +12,15 @@ spring:
     locations: classpath:db/migration
     baseline-on-migrate: true
 
+  security:
+    user:
+      name: rob
+      password: 123
+
 server:
   port: 9090
 
 version:
   api: /api/1.0.0
+
+

@@ -66,7 +66,7 @@ public class ProductServiceImpl implements IProductService{
     }
 
     @Override
-    @Cacheable("products_all")
+    @Cacheable("products_all") // -> Lista de productos dentro de redis
     public List<ProductCreateResponse> findAll() throws Exception {
         List<Product> products = repository.findAll();
         return mapper.toDtoList(products);

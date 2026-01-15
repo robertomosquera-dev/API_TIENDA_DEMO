@@ -85,10 +85,18 @@ public class CategoryServiceImpl implements ICategoryService{
     }
 
     @Override
-    @Cacheable("categories_all")
+    @Cacheable("categories_all") // -> Lista de categorias dentro de redis
     public List<CategoryCreateResponse> findAll() throws Exception {
         return mapper.toDtoList(repository.findAll());
     }
+
+    /*
+    @Override
+    @Cacheable("entity_all") -> products , categories
+    public List< productDTO > findAll() throws Exception {
+        return mapper.toDtoList(repository.findAll());
+    }
+     */
 
     @Override
     @CacheEvict(
