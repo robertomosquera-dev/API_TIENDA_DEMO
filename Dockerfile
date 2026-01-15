@@ -25,3 +25,5 @@ EXPOSE 9090
 ENTRYPOINT ["java", "-jar","/root/target/mcc-tienda-demo-0.0.1-SNAPSHOT.jar"]
 
 #CREAR IMAGEN: docker build -t "nombre de imagen" .
+
+#CREAR IMAGEN: docker build -t "spring-api-tienda-demo:1.0" .
