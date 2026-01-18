@@ -1,5 +1,6 @@
 package com.demo.mcctiendademo.Config;
 
+import com.demo.mcctiendademo.Service.UserDetailsServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -19,6 +20,7 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
@@ -105,11 +107,10 @@ public class SecurityConfig {
      */
     @Bean
     public AuthenticationProvider authenticationProvider(
-            UserDetailsService userDetailsService,
-            PasswordEncoder passwordEncoder
+            UserDetailsServiceImpl userDetailsService
     ) {
         DaoAuthenticationProvider provider = new DaoAuthenticationProvider(userDetailsService);
-        provider.setPasswordEncoder(passwordEncoder);
+        provider.setPasswordEncoder(passwordEncoder());
         return provider;
     }
 
@@ -117,52 +118,15 @@ public class SecurityConfig {
     /*
         Cuarto Paso: Pasa por el UserDetailsService que es un servicio que crea y registra a los usarios
      */
-    @Bean
-    public UserDetailsService userDetailsService(){
 
 
-        List<UserDetails> users = List.of(
-                User.withUsername("roberto")
-                        .password("123")
-                        .roles("USER")
-                        .authorities("READ","CREATE","DELETE","UPDATE")
-                        .build(),
-
-                User.withUsername("ana")
-                        .password("123")
-                        .roles("USER")
-                        .authorities("READ","CREATE")
-                        .build(),
-
-                User.withUsername("carlos")
-                        .password("123")
-                        .roles("ADMIN")
-                        .authorities("READ","CREATE","UPDATE","DELETE")
-                        .build(),
-
-                User.withUsername("lucia")
-                        .password("123")
-                        .roles("USER")
-                        .authorities("READ","CREATE")
-                        .build(),
-
-                User.withUsername("admin")
-                        .password("123")
-                        .roles("ADMIN")
-                        .authorities("READ","CREATE","UPDATE","DELETE")
-                        .build()
-        );
-
-        return new InMemoryUserDetailsManager(users);
-
-    }
 
     /*
         Bonus: No es un paso en sí, es una clase que permite encriptar las contraseñas o data importante se usa tando el UserDetailsService como el AuthenticationProvider
      */
     @Bean
     public PasswordEncoder passwordEncoder(){
-        return NoOpPasswordEncoder.getInstance();
+        return new BCryptPasswordEncoder();
     }
 
     /*
@@ -193,31 +157,31 @@ public class SecurityConfig {
 
 
             List<UserDetails> users = List.of(
-                    User.withUsername("roberto")
+                    UserEntity.withUsername("roberto")
                             .password("123")
                             .roles("USER")
                             .authorities("READ","CREATE","DELETE","UPDATE")
                             .build(),
 
-                    User.withUsername("ana")
+                    UserEntity.withUsername("ana")
                             .password("123")
                             .roles("USER")
                             .authorities("READ","CREATE")
                             .build(),
 
-                    User.withUsername("carlos")
+                    UserEntity.withUsername("carlos")
                             .password("123")
                             .roles("ADMIN")
                             .authorities("READ","CREATE","UPDATE","DELETE")
                             .build(),
 
-                    User.withUsername("lucia")
+                    UserEntity.withUsername("lucia")
                             .password("123")
                             .roles("USER")
                             .authorities("READ")
                             .build(),
 
-                    User.withUsername("admin")
+                    UserEntity.withUsername("admin")
                             .password("123")
                             .roles("ADMIN")
                             .authorities("READ","CREATE","UPDATE","DELETE")

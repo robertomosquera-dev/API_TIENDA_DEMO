@@ -38,6 +38,6 @@ public class Customer {
             name = "user_id",
             referencedColumnName = "user_id"
     )
-    private User user;
+    private UserEntity userEntity;
 
 }

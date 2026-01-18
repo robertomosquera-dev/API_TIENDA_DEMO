@@ -744,3 +744,318 @@ Caused by: java.lang.IllegalArgumentException: userDetailsService cannot be null
 2026-01-15 16:16:32,169 INFO  [http-nio-9090-exec-4] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2026-01-15 16:20:12,453 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2026-01-15 16:20:12,459 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-17 19:32:07,050 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 3512 (D:\Proyectos\API_TIENDA_DEMO\target\classes started by USUARIO in D:\Proyectos\API_TIENDA_DEMO)
+2026-01-17 19:32:07,052 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-17 19:32:07,053 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-17 19:32:08,931 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-17 19:32:08,934 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-17 19:32:08,936 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-17 19:32:09,698 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-17 19:32:09,834 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@390cd327
+2026-01-17 19:32:09,835 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-17 19:32:13,767 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-17 19:32:13,865 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-17 19:32:14,567 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-17 19:32:14,587 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 8.097 seconds (process running for 8.848)
+2026-01-17 19:32:23,170 INFO  [tomcat-shutdown] org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+2026-01-17 19:32:23,177 INFO  [Thread-1] org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+2026-01-17 19:32:23,189 INFO  [Thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-17 19:32:23,197 INFO  [Thread-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-17 19:32:23,315 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 3512 (D:\Proyectos\API_TIENDA_DEMO\target\classes started by USUARIO in D:\Proyectos\API_TIENDA_DEMO)
+2026-01-17 19:32:23,316 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-17 19:32:23,316 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-17 19:32:23,614 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-17 19:32:23,614 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-17 19:32:23,614 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-17 19:32:23,721 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2026-01-17 19:32:23,726 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c8f106c
+2026-01-17 19:32:23,726 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2026-01-17 19:32:23,876 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-17 19:32:24,163 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-17 19:32:24,170 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 0.887 seconds (process running for 18.43)
+2026-01-17 19:32:27,930 INFO  [tomcat-shutdown] org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9090"]
+2026-01-17 19:32:27,935 INFO  [Thread-5] org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9090"]
+2026-01-17 19:32:27,938 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2026-01-17 19:32:27,939 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2026-01-17 19:32:28,033 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 3512 (D:\Proyectos\API_TIENDA_DEMO\target\classes started by USUARIO in D:\Proyectos\API_TIENDA_DEMO)
+2026-01-17 19:32:28,033 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-17 19:32:28,033 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-17 19:32:28,453 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-17 19:32:28,453 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-17 19:32:28,453 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-17 19:32:28,661 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2026-01-17 19:32:28,667 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61254a10
+2026-01-17 19:32:28,667 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2026-01-17 19:32:29,467 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-17 19:32:29,525 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-17 19:32:29,857 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-17 19:32:29,864 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 1.856 seconds (process running for 24.124)
+2026-01-17 19:32:35,134 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2026-01-17 19:32:35,136 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2026-01-17 19:49:10,848 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 11436 (D:\Proyectos\API_TIENDA_DEMO\target\classes started by USUARIO in D:\Proyectos\API_TIENDA_DEMO)
+2026-01-17 19:49:10,850 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-17 19:49:10,851 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-17 19:49:13,273 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-17 19:49:13,278 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-17 19:49:13,279 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-17 19:49:14,166 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-17 19:49:14,309 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e73f56
+2026-01-17 19:49:14,311 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-17 19:49:17,277 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-17 19:49:17,393 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-17 19:49:18,115 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-17 19:49:18,138 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 7.848 seconds (process running for 8.608)
+2026-01-17 19:49:18,220 ERROR [restartedMain] org.springframework.boot.SpringApplication - Application run failed
+org.springframework.dao.InvalidDataAccessApiUsageException: org.hibernate.TransientPropertyValueException: Persistent instance of 'com.demo.mcctiendademo.Entity.Role' references an unsaved transient instance of 'com.demo.mcctiendademo.Entity.Permission' (persist the transient instance before flushing) [com.demo.mcctiendademo.Entity.Role.permissions -> com.demo.mcctiendademo.Entity.Permission]
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:362)
+	at org.springframework.orm.jpa.hibernate.HibernateExceptionTranslator.translateExceptionIfPossible(HibernateExceptionTranslator.java:112)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:199)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:557)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:794)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:757)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:684)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:406)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222)
+	at jdk.proxy4/jdk.proxy4.$Proxy157.saveAll(Unknown Source)
+	at com.demo.mcctiendademo.Config.DataInitializer.run(DataInitializer.java:93)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$1(SpringApplication.java:792)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:800)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$0(SpringApplication.java:776)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:776)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:328)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.demo.mcctiendademo.MccTiendaDemoApplication.main(MccTiendaDemoApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+Caused by: java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: Persistent instance of 'com.demo.mcctiendademo.Entity.Role' references an unsaved transient instance of 'com.demo.mcctiendademo.Entity.Permission' (persist the transient instance before flushing) [com.demo.mcctiendademo.Entity.Role.permissions -> com.demo.mcctiendademo.Entity.Permission]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:142)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:157)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:163)
+	at org.hibernate.internal.SessionImpl.fireFlush(SessionImpl.java:1494)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:481)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2116)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2038)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:410)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:166)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commitNoRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:248)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:242)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:89)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:553)
+	... 36 common frames omitted
+Caused by: org.hibernate.TransientPropertyValueException: Persistent instance of 'com.demo.mcctiendademo.Entity.Role' references an unsaved transient instance of 'com.demo.mcctiendademo.Entity.Permission' (persist the transient instance before flushing) [com.demo.mcctiendademo.Entity.Role.permissions -> com.demo.mcctiendademo.Entity.Permission]
+	at org.hibernate.engine.spi.CascadingActions$8.cascade(CascadingActions.java:391)
+	at org.hibernate.engine.spi.CascadingActions$8.cascade(CascadingActions.java:370)
+	at org.hibernate.engine.internal.Cascade.cascadeToOne(Cascade.java:533)
+	at org.hibernate.engine.internal.Cascade.cascadeAssociation(Cascade.java:436)
+	at org.hibernate.engine.internal.Cascade.cascadeProperty(Cascade.java:217)
+	at org.hibernate.engine.internal.Cascade.cascadeCollectionElements(Cascade.java:577)
+	at org.hibernate.engine.internal.Cascade.cascadeCollection(Cascade.java:488)
+	at org.hibernate.engine.internal.Cascade.cascadeAssociation(Cascade.java:451)
+	at org.hibernate.engine.internal.Cascade.cascadeProperty(Cascade.java:217)
+	at org.hibernate.engine.internal.Cascade.cascade(Cascade.java:158)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.checkForTransientReferences(AbstractFlushingEventListener.java:143)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.prepareEntityFlushes(AbstractFlushingEventListener.java:132)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.preFlush(AbstractFlushingEventListener.java:83)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.flushEverythingToExecutions(AbstractFlushingEventListener.java:62)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138)
+	at org.hibernate.internal.SessionImpl.fireFlush(SessionImpl.java:1489)
+	... 45 common frames omitted
+2026-01-17 19:49:18,247 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-17 19:49:18,252 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-17 19:52:02,535 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 17920 (D:\Proyectos\API_TIENDA_DEMO\target\classes started by USUARIO in D:\Proyectos\API_TIENDA_DEMO)
+2026-01-17 19:52:02,538 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-17 19:52:02,538 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-17 19:52:04,043 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-17 19:52:04,044 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-17 19:52:04,044 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-17 19:52:04,704 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-17 19:52:04,834 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24ac258f
+2026-01-17 19:52:04,835 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-17 19:52:07,502 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-17 19:52:07,594 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-17 19:52:08,247 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-17 19:52:08,268 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 6.244 seconds (process running for 7.043)
+2026-01-17 19:53:34,406 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-17 19:53:34,412 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-17 20:48:29,654 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 12752 (D:\Proyectos\API_TIENDA_DEMO\target\classes started by USUARIO in D:\Proyectos\API_TIENDA_DEMO)
+2026-01-17 20:48:29,656 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-17 20:48:29,657 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-17 20:48:32,147 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-17 20:48:32,149 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-17 20:48:32,150 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-17 20:48:33,072 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-17 20:48:33,231 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a3e2952
+2026-01-17 20:48:33,237 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-17 20:48:36,898 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-17 20:48:37,006 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-17 20:48:37,757 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-17 20:48:37,779 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 8.851 seconds (process running for 9.671)
+2026-01-17 20:48:38,351 ERROR [restartedMain] org.springframework.boot.SpringApplication - Application run failed
+org.springframework.dao.DataIntegrityViolationException: could not execute statement [Duplicate entry 'santiago' for key 'users.username'] [insert into users (account_non_expired,account_non_locked,credentials_non_expired,is_enabled,password,username,user_id) values (?,?,?,?,?,?,?)]; SQL [insert into users (account_non_expired,account_non_locked,credentials_non_expired,is_enabled,password,username,user_id) values (?,?,?,?,?,?,?)]; constraint [users.username]
+	at org.springframework.orm.jpa.hibernate.HibernateExceptionTranslator.convertHibernateAccessException(HibernateExceptionTranslator.java:169)
+	at org.springframework.orm.jpa.hibernate.HibernateExceptionTranslator.convertHibernateAccessException(HibernateExceptionTranslator.java:131)
+	at org.springframework.orm.jpa.hibernate.HibernateExceptionTranslator.translateExceptionIfPossible(HibernateExceptionTranslator.java:105)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:199)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:557)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:794)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:757)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:684)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:406)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:222)
+	at jdk.proxy4/jdk.proxy4.$Proxy157.saveAll(Unknown Source)
+	at com.demo.mcctiendademo.Config.DataInitializer.run(DataInitializer.java:93)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$1(SpringApplication.java:792)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:800)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$0(SpringApplication.java:776)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:776)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:328)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.demo.mcctiendademo.MccTiendaDemoApplication.main(MccTiendaDemoApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement [Duplicate entry 'santiago' for key 'users.username'] [insert into users (account_non_expired,account_non_locked,credentials_non_expired,is_enabled,password,username,user_id) values (?,?,?,?,?,?,?)]
+	at org.hibernate.dialect.MySQLDialect.lambda$buildSQLExceptionConversionDelegate$0(MySQLDialect.java:1269)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:34)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:115)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:184)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.performNonBatchedMutation(AbstractMutationExecutor.java:145)
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:53)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:66)
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:180)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:120)
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:93)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:108)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:634)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:505)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:381)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138)
+	at org.hibernate.internal.SessionImpl.fireFlush(SessionImpl.java:1489)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:481)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2116)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2038)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:410)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:166)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commitNoRollbackOnly(JdbcResourceLocalTransactionCoordinatorImpl.java:248)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:242)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:89)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:553)
+	... 36 common frames omitted
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'santiago' for key 'users.username'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1166)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1101)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1448)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1084)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:181)
+	... 59 common frames omitted
+2026-01-17 20:48:38,384 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-17 20:48:38,405 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-17 20:49:43,267 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 6616 (D:\Proyectos\API_TIENDA_DEMO\target\classes started by USUARIO in D:\Proyectos\API_TIENDA_DEMO)
+2026-01-17 20:49:43,268 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-17 20:49:43,270 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-17 20:49:44,987 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-17 20:49:44,988 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-17 20:49:44,989 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-17 20:49:46,054 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-17 20:49:46,217 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@665d3733
+2026-01-17 20:49:46,218 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-17 20:49:49,439 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-17 20:49:49,548 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-17 20:49:50,303 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-17 20:49:50,329 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 7.598 seconds (process running for 8.334)
+2026-01-17 20:49:59,199 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-17 20:49:59,206 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-17 20:52:54,070 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 6488 (D:\Proyectos\API_TIENDA_DEMO\target\classes started by USUARIO in D:\Proyectos\API_TIENDA_DEMO)
+2026-01-17 20:52:54,072 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-17 20:52:54,074 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-17 20:52:56,530 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-17 20:52:56,533 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-17 20:52:56,533 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-17 20:52:57,737 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-17 20:52:57,950 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@269b0fe2
+2026-01-17 20:52:57,952 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-17 20:53:01,566 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-17 20:53:01,684 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-17 20:53:02,523 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-17 20:53:02,550 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 9.149 seconds (process running for 9.93)
+2026-01-17 20:54:41,175 INFO  [http-nio-9090-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-17 21:02:27,722 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-17 21:02:27,727 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-17 21:05:47,992 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 18316 (D:\Proyectos\API_TIENDA_DEMO\target\classes started by USUARIO in D:\Proyectos\API_TIENDA_DEMO)
+2026-01-17 21:05:47,995 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-17 21:05:47,996 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-17 21:05:49,568 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-17 21:05:49,569 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-17 21:05:49,569 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-17 21:05:50,269 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-17 21:05:50,398 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@638f8120
+2026-01-17 21:05:50,399 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-17 21:05:54,135 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-17 21:05:54,234 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-17 21:05:54,911 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-17 21:05:54,932 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 7.514 seconds (process running for 8.276)
+2026-01-17 21:06:09,979 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-17 21:06:09,986 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-01-17 21:06:24,906 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Starting MccTiendaDemoApplication using Java 21.0.9 with PID 16776 (D:\Proyectos\API_TIENDA_DEMO\target\classes started by USUARIO in D:\Proyectos\API_TIENDA_DEMO)
+2026-01-17 21:06:24,908 DEBUG [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-17 21:06:24,908 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - The following 1 profile is active: "local"
+2026-01-17 21:06:26,868 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-01-17 21:06:26,870 INFO  [restartedMain] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-01-17 21:06:26,870 INFO  [restartedMain] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-17 21:06:27,613 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-01-17 21:06:27,758 INFO  [restartedMain] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@64ea06ba
+2026-01-17 21:06:27,759 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-01-17 21:06:30,566 WARN  [restartedMain] org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-17 21:06:30,665 WARN  [restartedMain] org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-01-17 21:06:31,457 INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-01-17 21:06:31,483 INFO  [restartedMain] com.demo.mcctiendademo.MccTiendaDemoApplication - Started MccTiendaDemoApplication in 7.24 seconds (process running for 8.273)
+2026-01-17 21:06:48,196 INFO  [http-nio-9090-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-17 21:08:01,109 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-01-17 21:08:01,114 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
